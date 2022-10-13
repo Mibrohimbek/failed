@@ -186,7 +186,7 @@ nav{
     opacity: 0.78;
 }
 
-.john .right button{
+.john .right a{
     font-family: 'Roboto Condensed';
     font-style: normal;
     font-weight: 400;
@@ -199,6 +199,7 @@ nav{
     margin-top: 32px;
     border: none;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 /* section 2 */
@@ -299,6 +300,10 @@ nav{
     line-height: 24px;
     margin-top:4px;    
     color: #161722;
+}
+
+.btn_hamburger{
+    display: none;
 }
 
 /* footer */
@@ -494,6 +499,9 @@ footer{
     .footer .center1 , .footer .center2{
         flex: 40%;
     } 
+    .btn_hamburger{
+        display: none;
+    }
 }
 
 @media (max-width:695px){
