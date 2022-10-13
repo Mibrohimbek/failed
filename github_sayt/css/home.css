@@ -357,7 +357,6 @@ header > div {
 }
 
 .benifit_list {
-  /* display: flex; */
   justify-content: space-between;
   position: relative;
   max-width: 250px;
